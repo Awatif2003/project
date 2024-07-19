@@ -1,0 +1,90 @@
+.manage-applications {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.panel {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-title {
+  margin: 0;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.button, .button-accept, .button-reject {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #007bff;
+}
+
+.button-accept {
+  background-color: #28a745;
+}
+
+.button-reject {
+  background-color: #dc3545;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
